@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N TV - milliy teleradiokanali</title>
+    <link rel="shortcut icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="css/reklama.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="loader">
+    <div>
+        <img src="img/ntvloader.gif" alt="">
+    </div>
+</div>
+<div class="project">
+    <div class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html"><p>Bosh sahifa</p></a>
+                    <a class="nav-link" href="ko'rsatuv.html"><p>Ko'rsatuvlar</p></a>
+                    <a class="nav-link" href="reklama.html"><p>Reklama</p></a>
+              </div>
+              <div class="menu-icons">
+                <div class="menu-circle">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="menu-circle">
+                    <a href="https://youtube.com/channel/UCwirDHHncAeYWTJIszM9XPw"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="menu-circle">
+                    <a href="https://web.telegram.org"><i class="fab fa-telegram"></i></a>
+                </div>
+                <div class="menu-circle">
+                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+            </div>
+          </nav>
+          <div class="reklama">
+            <div class="reklama-text">
+                <h1 style="color: #0071D4; font-size: bold;">REKLAMA</h1>
+                <p class="p">Reklama bilan bog'liq istalgan savollarni @SMMN2 Telegram manziligiga yuborishingizni mumkin.</p>
+                <p>Реклама билан боғлиқ исталган саволларни @SMMN2 Тelegram манзилига юборишингиз мумкин.</p>
+            </div>
+          </div>
+        </div>
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $(window).on('load', ()=>{
+            $('.loader').fadeOut(1000);
+            $('.project').fadeIn(1000);
+        })
+        window.addEventListener('load', () =>{
+            AOS.init({
+                duration: 1000,
+                easing: "ease-in-out"
+            });
+        })
+    </script>
+</body>
+</html>

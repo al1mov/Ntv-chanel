@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N TV - milliy teleradiokanali</title>
+    <link rel="stylesheet" href="css/ntv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato&family=Oswald:wght@500&family=Roboto&family=Tiro+Kannada&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <div class="loader">
+      <div>
+        <img src="img/ntvloader.gif" alt="">
+      </div>
+    </div>
+    <div class="project">
+      <div class="header">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#"><p>Bosh sahifa</p></a>
+                  <a class="nav-link" href="ko'rsatuv.html"><p>Ko'rsatuvlar</p></a>
+                  <a class="nav-link" href="reklama.html"><p>Reklama</p></a>
+            </div>
+            <div class="menu-icons">
+              <div class="menu-circle">
+                  <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+              </div>
+              <div class="menu-circle">
+                  <a href="https://youtube.com/channel/UCwirDHHncAeYWTJIszM9XPw"><i class="fab fa-youtube"></i></a>
+              </div>
+              <div class="menu-circle">
+                  <a href="https://web.telegram.org"><i class="fab fa-telegram"></i></a>
+              </div>
+              <div class="menu-circle">
+                  <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </nav>
+        <div class="main-menu">
+        <div class="main-btn">
+        <div class="btn-text">
+            <h2>Kanalarimizdan birini tanlang</h2>
+        </div>
+        <div  class="btn-link">
+          <div class="link link1"> 
+            <a href="#"><img src="img/cinema.jpg" alt="" ></a>
+          </div>
+          <div class="link link2"> 
+            <a href="https://seethesearecords.wixsite.com/2000s"><img src="img/music.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+        <div class="header-monitor">
+          <img src="img/Monitor.png" alt="">
+          <div class="iframe">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fkEM4KcAo_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="bg-image">
+          <img src="img/logo.png" alt="">
+        </div>
+      </div>
+      </div>
+      </div>
+      <div class="footer-color">
+      </div>
+    </div>
+
+    <script>
+      window.replainSettings = { id: '03fd4df3-bb7d-46da-9a6b-0824d25503f2' };
+      (function(u){var s=document.createElement('script');s.async=true;s.src=u;
+      var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+      })('https://widget.replain.cc/dist/client.js');
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $(window).on('load', ()=>{
+            $('.loader').fadeOut(1000);
+            $('.project').fadeIn(1000);
+        })
+        window.addEventListener('load', () =>{
+            AOS.init({
+                duration: 1000,
+                easing: "ease-in-out"
+            });
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/ntv.js"></script>
+</body>
+</html>
